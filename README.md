@@ -34,6 +34,8 @@ To implement above mentioned services i have created my own REST services which 
 
 In the UI , the script run on the response payload that will display the contents of the folder or download the file.
 
+--> For the service , to display the folder content, you can navigate through the folders and download the files in UI mode by single click.
+
 
 Deployment : -
 
