@@ -55,3 +55,12 @@ POSTMAN : -
 
 You can also view REST endpoints created for my application through POSTMAN
 
+        --> To get the folder contents
+            RESTEndPoint : - http://localhost:8080/listDirectory
+            Method : - GET
+            params : - input(value is folder ID or full path)
+            
+        --> To download the file
+            RESTEndPoint : - http://localhost:8080/downloadFile
+            Method : - GET
+            params : - input(value is file ID or full path with extension of file)
