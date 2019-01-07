@@ -3,7 +3,7 @@ Rest API for Cloud Services
 
 Pre Implementations Steps : -
 
-I have signed up an account, created an instance for "BOX" application by providing the access for the instance elements.
+I have signed up for an account in your STAGING ENVIRONMENT, created an instance for "BOX" application by providing the access to my BOX Account for the instance elements.
 
   By creating an instance for BOX, your service has provided me Authorization key for the BOX element, which is consumed by my API to access your REST services for the BOX instance. I have explored and identified your REST services for implementing the below services.
   
@@ -24,10 +24,7 @@ I have signed up an account, created an instance for "BOX" application by provid
       --> By specifying the file ID.
       
       --> By specifying the full path of the file.
-      
- Design : -
- 
-My design has to provide flexibility for the User. That means user can give input either ID or full path and that should list the folder or to download the file. 
+
 
 Technologies : - NodejS,  Angular JS 1.6, HTML.
 
@@ -53,7 +50,7 @@ To access it go to browser open url "localhost:8080", the home page will display
 
 POSTMAN : - 
 
-You can also view REST endpoints created for my application through POSTMAN
+You can also view payloads of REST endpoints created for my application through POSTMAN
 
         --> To get the folder contents
             RESTEndPoint : - http://localhost:8080/listDirectory
